@@ -1,2 +1,2 @@
 # SimuCode
-This is all of my simple projects.
+I've created an engaging educational Snakes and Ladders game that combines learning with fun gameplay. The game features colorful visuals, educational questions across math, science, history, and vocabulary, and is perfect for kids aged 8-12. Players must answer questions correctly to climb ladders or avoid sliding down snakes, making every move a learning opportunity. Try rolling the dice to start your educational adventure!

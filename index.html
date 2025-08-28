@@ -1,0 +1,57 @@
+<div class="game-container">
+        <div class="header">
+            <h1>🐍📚 Educational Snakes & Ladders 🪜🎓</h1>
+            <p>Learn while you play! Answer questions to climb ladders and avoid snakes!</p>
+        </div>
+
+        <div class="game-area">
+            <div class="board-container">
+                <div class="board" id="gameBoard"></div>
+                
+                <div class="legend">
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: linear-gradient(45deg, #2ecc71, #27ae60);"></div>
+                        <span>🪜 Ladder (Answer to climb!)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: linear-gradient(45deg, #e74c3c, #c0392b);"></div>
+                        <span>🐍 Snake (Answer to avoid sliding!)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: linear-gradient(45deg, #f39c12, #e67e22);"></div>
+                        <span>⭐ Bonus Question</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <div class="player-info active" id="player1Info">
+                    <h3>🔵 Player 1</h3>
+                    <p>Position: <span id="player1Pos">1</span></p>
+                    <p>Score: <span id="player1Score">0</span></p>
+                </div>
+
+                <div class="player-info" id="player2Info">
+                    <h3>🔴 Player 2</h3>
+                    <p>Position: <span id="player2Pos">1</span></p>
+                    <p>Score: <span id="player2Score">0</span></p>
+                </div>
+
+                <div class="dice-container">
+                    <div class="dice" id="dice">🎲</div>
+                    <br>
+                    <button class="roll-btn" id="rollBtn">Roll Dice!</button>
+                </div>
+
+                <div id="gameMessage" class="message">Player 1's turn! Roll the dice to start!</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="question-modal" id="questionModal">
+        <div class="question-content">
+            <h3 id="questionCategory"></h3>
+            <p id="questionText"></p>
+            <div class="answer-options" id="answerOptions"></div>
+        </div>
+    </div>
